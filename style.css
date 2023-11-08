@@ -48,15 +48,14 @@ body {
   text-align: center;
   padding: 2rem;
   position: relative;
-  /* width: fit-content; */
 }
 .time-overlay {
   position: absolute;
-  top: 50%; /* Adjust these values to center the time on the watch face */
+  top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white; /* or any color that makes the time visible over your watch */
-  font-size: 2em; /* Adjust size accordingly */
+  color: white; 
+  font-size: 2em; 
   font-family: "Arial", sans-serif;
 }
 .img {
@@ -150,3 +149,4 @@ body {
     margin: 5px;
   }
 }
+
