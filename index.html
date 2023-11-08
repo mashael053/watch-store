@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watch Store</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Products</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome to the Watch Store</h1>
+        </section>
+
+        <section class="container-img">
+
+            <img id="watchScreen" src="watch-black.png" alt="Black Watch" class="img" />
+            <div class="time-overlay" id="time"></div>
+        </section>
+
+        <section class="button-choose-colorWatch">
+            <button class="button-color" onclick="setWatchImage('watch-black.png')" title="black"
+                id="wbtn-black"></button>
+            <button class="button-color" onclick="setWatchImage('watch-purple.png')" title="purple"
+                id="wbtn-purple"></button>
+            <button class="button-color" onclick="setWatchImage('watch-orange.png')" title="orange"
+                id="wbtn-orange"></button>
+            <button class="button-color" onclick="setWatchImage('watch-beige.png')" title="beig"
+                id="wbtn-beig"></button>
+            <button class="button-color" title="clock style" id="color5"></button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>mshalalwajy08@gmail.com</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
